@@ -61,7 +61,6 @@ export default function formatPkg(pkg) {
   const splitName = cleaned.name.replace(/[-/@_.]+/g, ' ');
 
   const tags = pkg['dist-tags'];
-
   const rawPkg = {
     objectID: cleaned.name,
     name: cleaned.name,
